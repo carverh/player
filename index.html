@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Carver's Video Player</title>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="cvp.js"></script>
+  </head>
+  <body>
+    <div id="videoplayer">Your browser doesn't support Carver's Video Player.</div>
+    <script>
+      $("#videoplayer").cvp({
+        src: "test.mp4",
+        height: 256,
+        width: 256,
+        controls: true
+      });
+    </script>
+  </body>
+</html>
